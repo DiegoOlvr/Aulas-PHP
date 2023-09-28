@@ -1,3 +1,7 @@
+<?php 
+    include_once('protect.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,7 @@
         Bem vindo ao Painel, <?php echo $_SESSION['nome']; ?>!
     </h1>
     <p>
-        <a href="">Sair</a>
+        <a href="logout.php">Sair</a>
     </p>
 </body>
 </html>
